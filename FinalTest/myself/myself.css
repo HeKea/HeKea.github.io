@@ -1,0 +1,190 @@
+body { 
+    background-image: url(../images/微信图片_bk2.jpg);
+    font-family:      Georgia, "Times New Roman", Times, serif;
+    font-size:        small;
+    margin:           0px;
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+  }
+  header{
+    height: 100px;
+    object-fit: cover; /* 保持宽高比的同时填充整个容器 */  
+    display: block;  
+    position: relative;
+  }
+  div#h1{
+    padding-top: 20px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-weight: bolder;
+    display: grid;
+  }
+  footer{
+    height: 50px;
+    width: 100%;
+    background-color: rgb(234, 150, 66);
+    object-fit: cover;  
+    display: block;  
+    position: relative;
+    margin-top: 20px;
+  }
+  table {  
+    border-collapse: collapse; /* 合并相邻边框 */  
+    width: 500px;  
+    height: 300px;
+    border: 1px solid black; /* 表格外部边框 */ 
+    font-family: 宋体;
+    font-size: 15pt
+  }  
+  td,th{
+    text-align: center;  
+    padding: 8px;  
+    border: 1px solid black; /* 单元格边框 */  
+  }
+  tr{
+    background-color: aliceblue;
+  }
+ div#table1{
+  float:right;
+  height: 300px;
+  margin-top: 20px;
+ }
+ img {  
+  max-width: 100%;  /*图片大小自适应*/
+  height: auto;  
+ }  
+div#myphoto{
+  height: 300px;
+  width: 300px;
+  margin-top: 20px;
+  float: left;
+}
+div#selfid{
+  height: 500px;
+  font-size: large;
+  padding: 10px;
+  float: left;
+  margin-top: 20px;
+}
+div#pet{
+  height: 1800px;
+  font-size: large;
+  padding: 10px;
+  float: left;
+  margin-top: 20px;
+}
+.container_1{
+  width: 60%;
+  height: 2800px;
+  margin-left: 20%;
+  border-width: 2px;  
+  border-color: white;
+  border-style:dashed;  
+  padding: 10px;  
+  margin-top: 10px; 
+}
+div#naver{
+  width: 15%; 
+  height: 300px;
+  margin-left: 50px;
+  font-size: large;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  position: fixed;  
+  top: 15%;  
+  left: 0px; 
+  text-align:center;
+}
+img#img{
+  max-width: 100%;
+  width: 500px;
+  cursor: zoom-in;
+  height: auto;
+  float: left;
+  margin-left: 25%;
+  margin-top: 50px;
+}
+a:link {  
+  color: rgb(255, 255, 255);  
+  text-decoration: none; /* 移除下划线 */  
+}  
+
+/* 已被访问的链接 */  
+a:visited {  
+  color: rgb(255, 255, 255);  
+}  
+
+/* 鼠标悬停在链接上 */  
+a:hover {  
+  color: #ba1111;
+  text-decoration: underline; /* 添加下划线 */  
+}  
+
+/* 链接被点击时的状态 */  
+a:active {  
+  color: rgb(0, 0, 0);  
+}  
+ul{
+  margin-top: 20px;
+  margin-left: -15px;
+}
+div#naver #li_0{
+  height: 50px;
+  width: 200px;
+  padding: 0%;
+  float: left;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: large;
+  display: grid; /*使li中的文字水平垂直居中*/
+  place-items: center;
+  border-style:solid;  
+  border-color: white;
+}
+div#naver #li_1{
+  height: 50px;
+  width: 200px;
+  padding: 0%;
+  float: left;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: large;
+  display: grid; /*使li中的文字水平垂直居中*/
+  place-items: center;
+  border-style:solid;  
+  border-color: white;
+}
+div#naver #li_2{
+  height: 50px;
+  width: 200px;
+  padding: 0%;
+  float: left;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: large;
+  display: grid; /*使li中的文字水平垂直居中*/
+  place-items: center;
+  border-style:solid;  
+  border-color: white;
+}
+div#naver #li_3{
+  height: 50px;
+  width: 200px;
+  padding: 0%;
+  float: left;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: large;
+  display: grid; /*使li中的文字水平垂直居中*/
+  place-items: center;
+  border-style:solid;  
+  border-color: white;
+}
+div#naver #li_4{
+  height: 50px;
+  width: 200px;
+  padding: 0%;
+  float: left;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: large;
+  display: grid; /*使li中的文字水平垂直居中*/
+  place-items: center;
+  border-style:solid;  
+  border-color: white;
+}
